@@ -1,0 +1,35 @@
+{
+  "name": "moberg-plugins",
+  "description": "Moberg d.o.o. Claude Code plugins — the MTK engineering toolkit and the work-tree CLI (work / wd)",
+  "owner": {
+    "name": "Moberg HR",
+    "url": "https://github.com/moberghr"
+  },
+  "plugins": [
+    {
+      "name": "mtk",
+      "description": "MTK (Moberg Toolkit) — command entry points backed by reusable skills, review agents, and compliance-first workflows for teams building serious software across .NET, Python, and TypeScript",
+      "version": "7.13.1",
+      "source": {
+        "source": "github",
+        "repo": "moberghr/mtk-agent-toolkit"
+      },
+      "author": {
+        "name": "Moberg HR",
+        "url": "https://github.com/moberghr"
+      }
+    },
+    {
+      "name": "work-tree",
+      "description": "Skills for the work-tree CLI — wd-review drives interactive `wd -c` browser diff reviews",
+      "version": "1.9.1",
+      "source": {
+        "source": "github",
+        "repo": "moberghr/cli-work-tree-manager",
+        "path": "plugins/work-tree"
+      },
+      "category": "productivity",
+      "tags": ["git", "worktree", "diff", "review"]
+    }
+  ]
+}
