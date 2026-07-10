@@ -24,8 +24,8 @@
       "description": "Skills for the work-tree CLI — wd-review drives interactive `wd -c` browser diff reviews",
       "version": "1.9.1",
       "source": {
-        "source": "github",
-        "repo": "moberghr/cli-work-tree-manager",
+        "source": "git-subdir",
+        "url": "https://github.com/moberghr/cli-work-tree-manager",
         "path": "plugins/work-tree"
       },
       "category": "productivity",
