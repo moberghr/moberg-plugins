@@ -9,10 +9,10 @@
     {
       "name": "mtk",
       "description": "MTK (Moberg Toolkit) — command entry points backed by reusable skills, review agents, and compliance-first workflows for teams building serious software across .NET, Python, and TypeScript",
-      "version": "8.0.1",
       "source": {
         "source": "github",
-        "repo": "moberghr/mtk-agent-toolkit"
+        "repo": "moberghr/mtk-agent-toolkit",
+        "ref": "plugin"
       },
       "author": {
         "name": "Moberg HR",
