@@ -36,3 +36,6 @@ branch is the single copy.
 library and plugin off one version — bump the `ref` to each new `vX.Y.Z`. Its entry carries no
 `version` field on purpose: `plugin/.claude-plugin/plugin.json` in that repo is the single copy, and a
 duplicate here is a number that goes stale silently.
+
+`work-tree` tracks the default branch of its repo and, like the others, carries no `version` field:
+`plugins/work-tree/.claude-plugin/plugin.json` there is the single copy. Bump it there to ship an update.
