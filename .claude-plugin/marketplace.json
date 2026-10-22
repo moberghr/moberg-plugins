@@ -9,10 +9,10 @@
     {
       "name": "mtk",
       "description": "MTK (Moberg Toolkit) — command entry points backed by reusable skills, review agents, and compliance-first workflows for teams building serious software across .NET, Python, and TypeScript",
-      "version": "8.0.1",
       "source": {
         "source": "github",
-        "repo": "moberghr/mtk-agent-toolkit"
+        "repo": "moberghr/mtk-agent-toolkit",
+        "ref": "plugin"
       },
       "author": {
         "name": "Moberg HR",
@@ -22,7 +22,6 @@
     {
       "name": "work-tree",
       "description": "Skills for the work-tree CLI — wd-review drives interactive `wd -c` browser diff reviews",
-      "version": "1.9.1",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/moberghr/cli-work-tree-manager",
