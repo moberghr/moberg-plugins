@@ -14,6 +14,7 @@ Then install whichever plugins you want:
 /plugin install mtk@moberg-plugins
 /plugin install work-tree@moberg-plugins
 /plugin install docume@moberg-plugins
+/plugin install agentic-coach@moberg-plugins
 ```
 
 ## Plugins
@@ -23,6 +24,7 @@ Then install whichever plugins you want:
 | `mtk` | MTK (Moberg Toolkit) — compliance-first engineering workflows, review agents, and skills for .NET, Python, and TypeScript | [moberghr/mtk-agent-toolkit](https://github.com/moberghr/mtk-agent-toolkit) |
 | `work-tree` | Skills for the work-tree CLI (`work` / `wd`) — interactive browser diff reviews | [moberghr/cli-work-tree-manager](https://github.com/moberghr/cli-work-tree-manager) |
 | `docume` | DocuMe's generative tier — `/docs-loop`, `/docs-processes`, `/docs-refresh`, `/docs-feedback` write and correct a repo-based wiki published to Confluence; every skill's output is a PR | [moberghr/docu-me](https://github.com/moberghr/docu-me) (`plugin/`) |
+| `agentic-coach` | Reads your own Claude Code sessions, scores eight working habits and builds a local coaching report — run it with `/agentic-coach:coach` | [moberghr/agentic-coach](https://github.com/moberghr/agentic-coach) |
 
 This is an **aggregator** marketplace: the manifest here points at each plugin's own
 repository, so plugin code continues to live and version in those repos.
@@ -39,3 +41,6 @@ duplicate here is a number that goes stale silently.
 
 `work-tree` tracks the default branch of its repo and, like the others, carries no `version` field:
 `plugins/work-tree/.claude-plugin/plugin.json` there is the single copy. Bump it there to ship an update.
+
+`agentic-coach` also tracks the default branch of its repo and carries no `version` field:
+`.claude-plugin/plugin.json` there is the single copy. Bump it there to ship an update.
